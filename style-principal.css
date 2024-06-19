@@ -227,3 +227,29 @@ td, th {
   width: 50%;
   
 }
+
+.titulo-principal:first-letter {
+  color: red;
+}
+
+p:first-line {
+  font-style: italic;
+  
+}
+
+.titulo-principal:before {
+  content: "[";
+}
+
+.titulo-principal:after {
+  content: "]";
+}
+
+.item:before {
+  content: "★";
+}
+
+.item:first-child {
+  font-weight: bold;
+  
+}
