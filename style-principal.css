@@ -163,6 +163,7 @@ td, th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .principal {
@@ -225,7 +226,12 @@ td, th {
 
 .imagem-beneficios {
   width: 50%;
-  
+  opacity: 0.6;
+  transition: 1s;
+}
+
+.imagem-beneficios:hover {
+  opacity: 1;
 }
 
 .titulo-principal:first-letter {
@@ -251,5 +257,22 @@ p:first-line {
 
 .item:first-child {
   font-weight: bold;
-  
 }
+
+/*
+main > p {
+  background: red;
+}
+
+img + p {
+  background: purple;
+}
+
+img ~ p {
+  background: blue;
+}
+
+.principal p:not(#missao) {
+  background: orange;
+}
+*/
