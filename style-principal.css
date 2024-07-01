@@ -228,6 +228,8 @@ td, th {
   width: 50%;
   opacity: 0.6;
   transition: 1s;
+  box-shadow: 10px 10px 10px #000000;
+  
 }
 
 .imagem-beneficios:hover {
@@ -276,3 +278,21 @@ img ~ p {
   background: orange;
 }
 */
+
+@media screen and (max-width: 480px) {
+ .caixa, .principal, .mapa-conteudo, .video {
+   width: auto;
+ }
+
+  nav {
+    position: static;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
+}
